@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="img/window.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Anel Vuković</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img src="img/window.png" alt="icon" class="nav__logo" id="logo" />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">About</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Projects</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Contact me</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <h1>
+          Hi I'm
+          <span class="highlight">Anel Vuković</span> <br />
+          Web Developer <br />
+          <span class="highlight"> in the making</span>
+        </h1>
+        <h4>Eager to learn new things</h4>
+        <button class="btn--text btn--scroll-to">Let's go &DownArrow;</button>
+        <img src="img/developer.png" alt="header image" class="header__img" />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">About</h2>
+        <h3 class="section__header">
+          Hello, this section <br />
+          is about my journey
+        </h3>
+      </div>
+
+      <div class="about">
+        <img src="img/reading.png" alt="first img" class="about__img" />
+        <div class="about__about">
+          <div class="about__icon">
+            <img src="img/diploma.png" alt="diploma" />
+          </div>
+          <h5 class="about__header">Web Dev to be</h5>
+          <p>
+            Hard working beachler in Economics from Zenica to become a web
+            developer. I gradueted in 2021 at the University of Business &
+            Management.
+          </p>
+        </div>
+
+        <div class="about__about">
+          <div class="about__icon">
+            <img src="img/laptop.png" alt="laptop" />
+          </div>
+          <h5 class="about__header">Highly motivated person</h5>
+          <p>
+            I've found my passion in web development. I love spending time
+            coding and encountering new challenges. I'm highly adaptable to new
+            challenges and projects.
+          </p>
+        </div>
+        <img src="img/programming.png" alt="programming" />
+        <img src="img/zoom.png" alt="zoom" />
+        <div class="about__about">
+          <div class="about__icon">
+            <img src="img/coding.png" alt="window" />
+          </div>
+          <h5 class="about__header">First Job</h5>
+          <p>
+            I'm a Junior Front end Dev at Pear Shadow and that is the best thing
+            that happened to me. Highly motivated & team player person.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Skills</h2>
+        <h3 class="section__header">
+          There is always <br />
+          new things to learn in tech.
+        </h3>
+      </div>
+
+      <div class="skills">
+        <div class="skills__tab-container">
+          <button
+            class="btn skills__tab skills__tab--1 skills__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>HTML
+          </button>
+          <button class="btn skills__tab skills__tab--2" data-tab="2">
+            <span>02</span>CSS
+          </button>
+          <button class="btn skills__tab skills__tab--3" data-tab="3">
+            <span>03</span>JavaScript
+          </button>
+        </div>
+
+        <div class="skills__content skills__content--1 skills__content--active">
+          <div class="skills__icon skills__icon--1">
+            <img src="img/html-5.png" alt="html" />
+          </div>
+          <h5 class="skills__header">HTML the basics of every web app</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+
+        <div class="skills__content skills__content--2">
+          <div class="skills__icon skills__icon--2">
+            <img src="img/css.png" alt="CSS" />
+          </div>
+          <h5 class="skills__header">CSS where you design web app</h5>
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+          </p>
+        </div>
+
+        <div class="skills__content skills__content--3">
+          <div class="skills__icon skills__icon--3">
+            <img src="img/java-script.png" alt="JS" />
+          </div>
+          <h5 class="skills__header">
+            JavaScript is how you give life to a web app
+          </h5>
+          <p>
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--projects">
+        <h2 class="section__description">Projects</h2>
+        <h3 class="section__header">
+          This is just the begining, <br />
+          much more projects to come.
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide slide--1">
+          <div class="projects">
+            <h5 class="projects__header">Game runed with JS</h5>
+            <blockquote class="projects__text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Accusantium quas quisquam non? Quas voluptate nulla minima
+              deleniti optio ullam nesciunt, numquam corporis et asperiores
+              laboriosam sunt, praesentium suscipit blanditiis. Necessitatibus
+              id alias reiciendis, perferendis facere pariatur dolore veniam
+              autem esse non voluptatem saepe provident nihil molestiae.
+            </blockquote>
+            <address class="projects__name">
+              <h6 class="projects__nickname">Pig Game</h6>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--2">
+          <div class="projects">
+            <h5 class="projects__header">Banking app done with JS</h5>
+            <blockquote class="projects__text">
+              Quisquam itaque deserunt ullam, quia ea repellendus provident,
+              ducimus neque ipsam modi voluptatibus doloremque, corrupti
+              laborum. Incidunt numquam perferendis veritatis neque repellendus.
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo
+              deserunt exercitationem deleniti.
+            </blockquote>
+            <address class="projects__name">
+              <h6 class="projects__nickname">Banking app</h6>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--3">
+          <div class="projects">
+            <h5 class="projects__header">Beautiful Banking web page</h5>
+            <blockquote class="projects__text">
+              Debitis, nihil sit minus suscipit magni aperiam vel tenetur
+              incidunt commodi architecto numquam omnis nulla autem,
+              necessitatibus blanditiis modi similique quidem. Odio aliquam
+              culpa dicta beatae quod maiores ipsa minus consequatur error sunt,
+              deleniti saepe aliquid quos inventore sequi. Necessitatibus id
+              alias reiciendis, perferendis facere.
+            </blockquote>
+            <address class="projects__name">
+              <h6 class="projects__nickname">Banking webpage</h6>
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          Stay away from negative people, <br />
+          they have a solution for every problem.
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">Contact me today!</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">About</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Pricing</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Terms of Use</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Careers</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact Us</a>
+        </li>
+      </ul>
+      <img src="img/window.png" alt="Logo" class="footer__logo" />
+      <p class="footer__copyright">
+        &copy; Copyright by
+        <a
+          class="footer__link twitter-link"
+          target="_blank"
+          href="https://www.linkedin.com/in/anel-vuković-473b99221/"
+          >Anel Vuković</a
+        >
+      </p>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Contact me <br />
+        in just <span class="highlight">5 minutes</span>
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <button class="btn">Next step &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script defer src="script.js"></script>
+  </body>
+</html>
